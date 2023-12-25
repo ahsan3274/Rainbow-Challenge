@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ec8bbd9-a4d7-4e7c-83e5-6db97604ba9d}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>setup.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.11</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="docs\assets\ion_client.gif" />
+    <Content Include="docs\assets\ion_client_cli.png" />
+    <Content Include="docs\assets\ion_client_py.png" />
+    <Content Include="docs\assets\ion_server.gif" />
+    <Content Include="docs\assets\ion_server_cli.png" />
+    <Content Include="docs\assets\ion_server_py.png" />
+    <Content Include="docs\assets\logo.png" />
+    <Content Include="docs\assets\pom_battle_1.png" />
+    <Content Include="docs\assets\pom_battle_2.png" />
+    <Content Include="docs\assets\pom_env_output.png" />
+    <Content Include="pommerman.egg-info\dependency_links.txt" />
+    <Content Include="pommerman.egg-info\entry_points.txt" />
+    <Content Include="pommerman.egg-info\requires.txt" />
+    <Content Include="pommerman.egg-info\SOURCES.txt" />
+    <Content Include="pommerman.egg-info\top_level.txt" />
+    <Content Include="pommerman\resources\Agent0-No-Background.png" />
+    <Content Include="pommerman\resources\Agent0-Team-No-Background.png" />
+    <Content Include="pommerman\resources\Agent0-Team.png" />
+    <Content Include="pommerman\resources\Agent0.png" />
+    <Content Include="pommerman\resources\Agent1-No-Background.png" />
+    <Content Include="pommerman\resources\Agent1-Team-No-Background.png" />
+    <Content Include="pommerman\resources\Agent1-Team.png" />
+    <Content Include="pommerman\resources\Agent1.png" />
+    <Content Include="pommerman\resources\Agent2-No-Background.png" />
+    <Content Include="pommerman\resources\Agent2-Team-No-Background.png" />
+    <Content Include="pommerman\resources\Agent2-Team.png" />
+    <Content Include="pommerman\resources\Agent2.png" />
+    <Content Include="pommerman\resources\Agent3-No-Background.png" />
+    <Content Include="pommerman\resources\Agent3-Team-No-Background.png" />
+    <Content Include="pommerman\resources\Agent3-Team.png" />
+    <Content Include="pommerman\resources\Agent3.png" />
+    <Content Include="pommerman\resources\AgentDummy-No-Background.png" />
+    <Content Include="pommerman\resources\AgentDummy.png" />
+    <Content Include="pommerman\resources\Bomb-1.png" />
+    <Content Include="pommerman\resources\Bomb-10.png" />
+    <Content Include="pommerman\resources\Bomb-2.png" />
+    <Content Include="pommerman\resources\Bomb-3.png" />
+    <Content Include="pommerman\resources\Bomb-4.png" />
+    <Content Include="pommerman\resources\Bomb-5.png" />
+    <Content Include="pommerman\resources\Bomb-6.png" />
+    <Content Include="pommerman\resources\Bomb-7.png" />
+    <Content Include="pommerman\resources\Bomb-8.png" />
+    <Content Include="pommerman\resources\Bomb-9.png" />
+    <Content Include="pommerman\resources\Bomb.png" />
+    <Content Include="pommerman\resources\ExtraBomb.png" />
+    <Content Include="pommerman\resources\Flames.png" />
+    <Content Include="pommerman\resources\Fog.png" />
+    <Content Include="pommerman\resources\IncrRange.png" />
+    <Content Include="pommerman\resources\Kick.png" />
+    <Content Include="pommerman\resources\Passage.png" />
+    <Content Include="pommerman\resources\Rigid.png" />
+    <Content Include="pommerman\resources\Skull.png" />
+    <Content Include="pommerman\resources\Wood.png" />
+    <Content Include="pommerman\resources\X-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent0-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent0-Team-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent0-Team.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent0.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent1-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent1-Team-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent1-Team.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent1.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent2-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent2-Team-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent2-Team.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent2.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent3-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent3-Team-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent3-Team.png" />
+    <Content Include="pommerman\resources_unicorn_style\Agent3.png" />
+    <Content Include="pommerman\resources_unicorn_style\AgentDummy-No-Background.png" />
+    <Content Include="pommerman\resources_unicorn_style\AgentDummy.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-1.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-10.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-2.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-3.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-4.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-5.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-6.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-7.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-8.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb-9.png" />
+    <Content Include="pommerman\resources_unicorn_style\Bomb.png" />
+    <Content Include="pommerman\resources_unicorn_style\ExtraBomb.png" />
+    <Content Include="pommerman\resources_unicorn_style\Flames.png" />
+    <Content Include="pommerman\resources_unicorn_style\Fog.png" />
+    <Content Include="pommerman\resources_unicorn_style\Goal.png" />
+    <Content Include="pommerman\resources_unicorn_style\IncrRange.png" />
+    <Content Include="pommerman\resources_unicorn_style\Kick.png" />
+    <Content Include="pommerman\resources_unicorn_style\Passage.png" />
+    <Content Include="pommerman\resources_unicorn_style\Path.png" />
+    <Content Include="pommerman\resources_unicorn_style\Rigid.png" />
+    <Content Include="pommerman\resources_unicorn_style\seed_new2.png" />
+    <Content Include="pommerman\resources_unicorn_style\Skull.png" />
+    <Content Include="pommerman\resources_unicorn_style\Wood.png" />
+    <Content Include="pommerman\resources_unicorn_style\X-No-Background.png" />
+    <Content Include="requirements.txt" />
+    <Content Include="student_agents\groupXX\groupXX\resources\some_resource.txt" />
+    <Content Include="student_agents\heuristic_agent\heuristic_agent\resources\some_resource.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conf.py" />
+    <Compile Include="examples\simple_ffa_run.py" />
+    <Compile Include="pommerman\agents\base_agent.py" />
+    <Compile Include="pommerman\agents\dummy_agent.py" />
+    <Compile Include="pommerman\agents\player_agent.py" />
+    <Compile Include="pommerman\agents\player_agent_blocking.py" />
+    <Compile Include="pommerman\agents\random_agent.py" />
+    <Compile Include="pommerman\agents\simple_agent.py" />
+    <Compile Include="pommerman\agents\__init__.py" />
+    <Compile Include="pommerman\characters.py" />
+    <Compile Include="pommerman\cli\run_battle.py" />
+    <Compile Include="pommerman\cli\__init__.py" />
+    <Compile Include="pommerman\configs.py" />
+    <Compile Include="pommerman\constants.py" />
+    <Compile Include="pommerman\envs\v0.py" />
+    <Compile Include="pommerman\envs\v1.py" />
+    <Compile Include="pommerman\envs\v2.py" />
+    <Compile Include="pommerman\envs\__init__.py" />
+    <Compile Include="pommerman\forward_model.py" />
+    <Compile Include="pommerman\graphics.py" />
+    <Compile Include="pommerman\helpers\__init__.py" />
+    <Compile Include="pommerman\runner\docker_agent_runner.py" />
+    <Compile Include="pommerman\runner\__init__.py" />
+    <Compile Include="pommerman\utility.py" />
+    <Compile Include="pommerman\__init__.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="student_agents\check_submission.py" />
+    <Compile Include="student_agents\create_agent_folder.py" />
+    <Compile Include="student_agents\groupXX\groupXX\groupXX_agent.py" />
+    <Compile Include="student_agents\groupXX\groupXX\__init__.py" />
+    <Compile Include="student_agents\groupXX\setup.py" />
+    <Compile Include="student_agents\heuristic_agent\heuristic_agent\game_state.py" />
+    <Compile Include="student_agents\heuristic_agent\heuristic_agent\heuristic_agent.py" />
+    <Compile Include="student_agents\heuristic_agent\heuristic_agent\mcts.py" />
+    <Compile Include="student_agents\heuristic_agent\heuristic_agent\node.py" />
+    <Compile Include="student_agents\heuristic_agent\heuristic_agent\__init__.py" />
+    <Compile Include="student_agents\heuristic_agent\setup.py" />
+    <Compile Include="student_agents\learning_agent\learning_agent\learning_agent.py" />
+    <Compile Include="student_agents\learning_agent\learning_agent\net_architecture.py" />
+    <Compile Include="student_agents\learning_agent\learning_agent\net_input.py" />
+    <Compile Include="student_agents\learning_agent\learning_agent\replay_memory.py" />
+    <Compile Include="student_agents\learning_agent\learning_agent\util.py" />
+    <Compile Include="student_agents\learning_agent\learning_agent\__init__.py" />
+    <Compile Include="student_agents\learning_agent\setup.py" />
+    <Compile Include="student_agents\learning_agent\train_agent.py" />
+    <Compile Include="student_agents\very_simple_agent\setup.py" />
+    <Compile Include="student_agents\very_simple_agent\very_simple_agent\util.py" />
+    <Compile Include="student_agents\very_simple_agent\very_simple_agent\very_simple_agent.py" />
+    <Compile Include="student_agents\very_simple_agent\very_simple_agent\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="docs\assets" />
+    <Folder Include="examples" />
+    <Folder Include="pommerman" />
+    <Folder Include="pommerman.egg-info" />
+    <Folder Include="pommerman\agents" />
+    <Folder Include="pommerman\cli" />
+    <Folder Include="pommerman\envs" />
+    <Folder Include="pommerman\helpers" />
+    <Folder Include="pommerman\resources" />
+    <Folder Include="pommerman\resources_unicorn_style" />
+    <Folder Include="pommerman\runner" />
+    <Folder Include="student_agents" />
+    <Folder Include="student_agents\groupXX" />
+    <Folder Include="student_agents\groupXX\groupXX" />
+    <Folder Include="student_agents\groupXX\groupXX\resources" />
+    <Folder Include="student_agents\heuristic_agent" />
+    <Folder Include="student_agents\heuristic_agent\heuristic_agent" />
+    <Folder Include="student_agents\heuristic_agent\heuristic_agent\resources" />
+    <Folder Include="student_agents\learning_agent" />
+    <Folder Include="student_agents\learning_agent\learning_agent" />
+    <Folder Include="student_agents\very_simple_agent" />
+    <Folder Include="student_agents\very_simple_agent\very_simple_agent" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.11" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
